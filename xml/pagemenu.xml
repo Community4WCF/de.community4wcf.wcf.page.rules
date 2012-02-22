@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: pagemenu.xml 1542 2010-08-20 19:53:46Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/page-menu.xsd">
+	<import>
+		<pagemenuitem name="wcf.header.menu.rules">
+			<iconmedium>rulesM.png</iconmedium>
+			<iconsmall>rulesS.png</iconsmall>
+			<position>footer</position>
+			<permissions>user.managepages.canViewRules</permissions>
+			<link>index.php?page=Rules</link>
+			<options>module_rules</options>
+		</pagemenuitem>
+	</import>
+</data>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: eventlistener.xml 1621 2010-08-31 14:38:33Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/event-listener.xsd">	
+	<import>
+		<eventlistener>
+			<eventclassname>RegisterPage</eventclassname>
+			<eventname>show</eventname>
+			<listenerclassfile>lib/system/event/listener/RegisterRulesListener.class.php</listenerclassfile>
+		</eventlistener>
+	</import>
+</data>

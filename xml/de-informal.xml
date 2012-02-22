@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de-informal.xml 1752 2011-02-08 23:55:48Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.rules"><![CDATA[<a href="index.php?page=Rules">Regeln</a>]]></item>
+	</category>
+	
+	<category name="wcf.global">
+		<item name="wcf.global.page.rules.copyright"><![CDATA[<a href="http://community4wcf.de" style="font-size: x-small; text-decoration: none;">Regel-Seite, entwickelt von Community4WCF</a>]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.managepages"><![CDATA[Seitenverwaltung]]></item>
+		<item name="wcf.acp.group.option.category.user.managepages.description"><![CDATA[Zum Verwalten deiner Seiten.]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewRules"><![CDATA[Kann Regeln sehen]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewRules.description"><![CDATA[Mitglieder dieser Benutzergruppe können die Regeln sehen.]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.managepages"><![CDATA[Seitenverwaltung]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.managepages.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.content.managepages.rules"><![CDATA[Kann Regeln bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.content.managepages.rules.description"><![CDATA[Mitglieder dieser Benutzergruppe können die Regeln bearbeiten.]]></item>
+	</category>
+	
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.rules"><![CDATA[Regeln]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<!-- module -->
+		<item name="wcf.acp.option.category.module.content.managepages"><![CDATA[Seitenverwaltung]]></item>
+		<item name="wcf.acp.option.category.module.content.managepages.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.module_rules"><![CDATA[Regeln]]></item>
+		<item name="wcf.acp.option.module_rules.description"><![CDATA[Aktiviert die Regeln.]]></item>
+		<!-- /module -->
+		<!-- page -->
+		<item name="wcf.acp.option.category.rules"><![CDATA[Regeln]]></item>
+		<item name="wcf.acp.option.category.rules.description"><![CDATA[Hier kannst du die Regeln verwalten.]]></item>
+		<item name="wcf.acp.option.category.rules.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.category.rules.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.rules.settings"><![CDATA[Einstellungen]]></item>
+		<item name="wcf.acp.option.category.rules.settings.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.rules.box"><![CDATA[Box]]></item>
+		<item name="wcf.acp.option.category.rules.box.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.rules.box.content"><![CDATA[Box Inhalt]]></item>
+		<item name="wcf.acp.option.category.rules.box.content.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.option.rules_text"><![CDATA[Regeln]]></item>
+		<item name="wcf.acp.option.rules_text.description"><![CDATA[Geben hier die Regeln ein.]]></item>
+		<item name="wcf.acp.option.rules_enable_smiley"><![CDATA[Smilies verwenden]]></item>
+		<item name="wcf.acp.option.rules_enable_smiley.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.rules_enable_html"><![CDATA[HTML verwenden]]></item>
+		<item name="wcf.acp.option.rules_enable_html.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.rules_enable_bbcodes"><![CDATA[BBCodes verwenden]]></item>
+		<item name="wcf.acp.option.rules_enable_bbcodes.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.rules_enable_register"><![CDATA[Regeln bei der Registrierung anzeigen?]]></item>
+		<item name="wcf.acp.option.rules_enable_register.description"><![CDATA[Durch Aktivierung dieser Option werden vor der Registrierung die Regeln angezeigt.]]></item>
+		<item name="wcf.acp.option.allow_spider_on_rules"><![CDATA[Allow Spiders]]></item>
+		<item name="wcf.acp.option.allow_spider_on_rules.description"><![CDATA[Erlaubt Suchmaschinen die Seite zu Indexzieren.]]></item>
+		<item name="wcf.acp.option.rules_brandingfree"><![CDATA[Copyright ausblenden?]]></item>
+		<item name="wcf.acp.option.rules_brandingfree.description"><![CDATA[Möchtest du das Copyright ausblenden? Wir freuen uns natürlich, wenn es eingeblendet bleibt.]]></item>
+		
+		<item name="wcf.acp.option.rules_box_enable"><![CDATA[Box anzeigen?]]></item>
+		<item name="wcf.acp.option.rules_box_enable.description"><![CDATA[Durch Aktivierung dieser Option wird eine Box auf der Seite angezeigt.]]></item>
+		<item name="wcf.acp.option.rules_box_position"><![CDATA[Position]]></item>
+		<item name="wcf.acp.option.rules_box_position.description"><![CDATA[Wähle die Position aus, an der die Box angezeigt werden soll.]]></item>
+		<item name="wcf.acp.option.rules_box_position.top"><![CDATA[Über der Seite]]></item>
+		<item name="wcf.acp.option.rules_box_position.rules"><![CDATA[Unterhalb der Regeln]]></item>
+		<item name="wcf.acp.option.rules_box_position.bottom"><![CDATA[Unter der Seite]]></item>
+		<item name="wcf.acp.option.rules_box_appearance"><![CDATA[Aussehen]]></item>
+		<item name="wcf.acp.option.rules_box_appearance.description"><![CDATA[Stelle ein, wie die Box aussehen soll.]]></item>
+		<item name="wcf.acp.option.rules_box_appearance.info"><![CDATA[Info (blau)]]></item>
+		<item name="wcf.acp.option.rules_box_appearance.error"><![CDATA[Error (gelb)]]></item>
+		<item name="wcf.acp.option.rules_box_appearance.warning"><![CDATA[Warning (rot)]]></item>
+		<item name="wcf.acp.option.rules_box_enable_register"><![CDATA[Box bei der Registrierung anzeigen?]]></item>
+		<item name="wcf.acp.option.rules_box_enable_register.description"><![CDATA[Durch Aktivierung dieser Option wird die Box bei der Registrierung ("{lang}wcf.acp.option.rules_box_position.rules{/lang}") angezeigt. Die Voraussetzung ist, dass die Option "{lang}wcf.acp.option.rules_enable_register{/lang}" bereits aktiviert ist.]]></item>
+		<item name="wcf.acp.option.rules_box_text"><![CDATA[Box Inhalt]]></item>
+		<item name="wcf.acp.option.rules_box_text.description"><![CDATA[Gebe hier den Inhalt der Box ein.]]></item>
+		<item name="wcf.acp.option.rules_box_enable_smiley"><![CDATA[Smilies verwenden]]></item>
+		<item name="wcf.acp.option.rules_box_enable_smiley.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.rules_box_enable_html"><![CDATA[HTML verwenden]]></item>
+		<item name="wcf.acp.option.rules_box_enable_html.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.rules_box_enable_bbcodes"><![CDATA[BBCodes verwenden]]></item>
+		<item name="wcf.acp.option.rules_box_enable_bbcodes.description"><![CDATA[]]></item>
+		<!-- /page -->
+	</category>
+	
+	<category name="wcf.rules">
+		<item name="wcf.rules.title"><![CDATA[Regeln]]></item>
+		<item name="wcf.rules.description"><![CDATA[]]></item>
+	</category>
+</language>

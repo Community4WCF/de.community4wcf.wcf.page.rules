@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 1621 2010-08-31 14:38:33Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="rules">
+				<showorder>40</showorder>
+				<permissions>admin.content.managepages.rules</permissions>
+				<options>module_rules</options>
+			</category>
+			<category name="rules.general">
+				<parent>rules</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="rules.settings">
+				<parent>rules</parent>
+				<showorder>2</showorder>
+			</category>
+			<category name="rules.box">
+				<parent>rules</parent>
+				<showorder>3</showorder>
+			</category>
+			<category name="rules.box.content">
+				<parent>rules.box</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="module.content.managepages">
+				<parent>module.content</parent>
+			</category>
+		</categories>
+		<options>
+			<!-- module options -->
+			<option name="module_rules">
+				<categoryname>module.content.managepages</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			<!-- options -->
+			<option name="rules_text">
+				<categoryname>rules.general</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>Aktuell sind keine Regeln vorhanden. / Currently there are no rules.</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="rules_enable_smiley">
+				<categoryname>rules.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>2</showorder>
+				<options>module_smiley</options>
+			</option>
+			<option name="rules_enable_html">
+				<categoryname>rules.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="rules_enable_bbcodes">
+				<categoryname>rules.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<option name="rules_enable_register">
+				<categoryname>rules.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>1</showorder>
+				<enableoptions><![CDATA[rules_box_enable_register]]></enableoptions>
+			</option>
+			<option name="allow_spider_on_rules">
+				<categoryname>rules.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>1</hidden>
+				<showorder>2</showorder>
+			</option>
+			<option name="rules_brandingfree">
+				<categoryname>rules.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<hidden>0</hidden>
+				<showorder>3</showorder>
+			</option>
+			<!-- page / box -->
+			<option name="rules_box_enable">
+				<categoryname>rules.box</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>1</showorder>
+				<enableoptions><![CDATA[rules_box_position]]></enableoptions>
+			</option>
+			<option name="rules_box_position">
+				<categoryname>rules.box</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue><![CDATA[rules]]></defaultvalue>
+				<selectoptions>
+				<![CDATA[top:wcf.acp.option.rules_box_position.top
+rules:wcf.acp.option.rules_box_position.rules
+bottom:wcf.acp.option.rules_box_position.bottom]]></selectoptions>
+				<showorder>2</showorder>
+			</option>
+			<option name="rules_box_appearance">
+				<categoryname>rules.box</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue><![CDATA[info]]></defaultvalue>
+				<selectoptions>
+				<![CDATA[info:wcf.acp.option.rules_box_appearance.info
+warning:wcf.acp.option.rules_box_appearance.warning
+error:wcf.acp.option.rules_box_appearance.error]]></selectoptions>
+				<showorder>3</showorder>
+			</option>
+			<option name="rules_box_enable_register">
+				<categoryname>rules.box</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+				<hidden>0</hidden>
+			</option>
+			<option name="rules_box_text">
+				<categoryname>rules.box.content</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>Aktuell ist kein Inhalt vorhanden. / Currently no content is present.</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="rules_box_enable_smiley">
+				<categoryname>rules.box.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>2</showorder>
+				<options>module_smiley</options>
+			</option>
+			<option name="rules_box_enable_html">
+				<categoryname>rules.box.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="rules_box_enable_bbcodes">
+				<categoryname>rules.box.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<!-- options -->
+		</options>
+	</import>
+</data>
